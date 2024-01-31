@@ -1,0 +1,19 @@
+.button__centering {
+    text-align: center;
+    font-weight: 700;
+}
+
+.button__style{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: medium;
+    border: 3px solid black;
+}
+
+.beigeButton{
+    background-color: rgb(235, 238, 201);
+
+}

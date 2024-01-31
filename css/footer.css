@@ -1,0 +1,17 @@
+.footer {
+    text-align: center;
+    border-top: 1px solid red;
+    padding: 10px;
+}
+
+.footerLink {
+    list-style: none;
+    text-decoration: none;
+}
+
+.footerLinkStyle {
+    list-style: none;
+    text-decoration: none;
+    margin-right: 40px;
+    color: black;
+}

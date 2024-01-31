@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/article.css" rel="stylesheet">
+  <link href="css/navigation.css" rel="stylesheet">
+  <link href="css/table.css" rel="stylesheet">
+  <link href="css/footer.css" rel="stylesheet">
+  <link href="css/header.css" rel="stylesheet">
+  <link href="css/container.css" rel="stylesheet">
+  <link href="css/button.css" rel="stylesheet">
+
+
+  <script defer src="js/script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap" rel="stylesheet">
+</head>
+
+<!--contenteditable-->
+
+<body class="body">
+  <h1 class="header">
+    Arkadiusz Toruń - Frontend Developer
+  </h1>
+  <p class="button__centering">
+    <button class="button__style js-button">
+      Zmień na <span class="js-themeName">białe</span> tło
+    </button>
+  </p>
+  <nav class="navigation">
+    <ul class="navigation__list">
+      <li class="navigation__item">
+        <a class="navigation__link" href="#intro">Życiowy cytat</a>
+      </li>
+      <li class="navigation__item">
+        <a class="navigation__link" href="#myDescription">O mnie</a>
+      </li>
+      <li class="navigation__item">
+        <a class="navigation__link" href="#favouriteSongs">Ulubione piosenki</a>
+      </li>
+    </ul>
+  </nav>
+  <main class="container js-container">
+    <h2 class="container__header">
+      <em>O mnie</em>
+    </h2>
+    <p class="container__image">
+      <img width="200" height="200" src="https://i.postimg.cc/431vYJ9P/Arek.webp" alt="Arek">
+    </p>
+    <p class="container__intro" id="intro">
+      <strong> "Nie tylko wysocy potrafią widzieć horyzonty"
+      </strong> <br>
+      Nazywam Arek i jestem magistrem Inżynierii Biomedycznej.
+    </p>
+    <p class="container__occupationName">
+      <i>Biomedical Engineer</i>
+    </p>
+    <h3 class="container__header container__header--reddened" id="myDescription">Zainteresowania</h3>
+    <article class="article">
+      <p class="article__paragraph article__paragraph--bolded">
+        Bardzo lubię muzykę, prawie cały czas mi towarzyszy. Uwielbiam pływać,
+        grać w piłkę nożną ( a nawet jestem trenerem), ogólnie sport i sporty nie tylko drużynowe.
+        Potrafię obsługiwać się z bronią pneumatyczną.
+      </p>
+    </article>
+    <article class="article article--dark">
+      <p class="article__paragraph ">
+        Bardo <b>chciałbym</b> ukończyć ten kurs. Gdy to przeczytam za jakiś czas to
+        mam nadzieję, że przyjdę tu z myślą o swoim <i>
+          Homepage on recrutation
+        </i>.
+      </p>
+    </article>
+    <article class="article">
+      <p class="article__paragraph article__paragraph--highlighted">
+        <span class="article__entry">Krótko o pracy magisterskiej</span> <br>
+        Tematem mojej pracy była : "Analiza możliwości wykorzystania uczenia maszynowego w procesach diagnowania
+        stanu organizmu człowieka na podstawie wyglądu tęczówek oczu"
+      </p>
+    </article>
+    <div>
+      <table class="table" id="favouriteSongs">
+        <caption class="table__caption">Ulubione piosenki</caption>
+        <thead>
+          <tr>
+            <th class="table__cell table__header" scope="col">Wykonawca</th>
+            <th class="table__cell table__header" scope="col">Nazwa utworu</th>
+            <th class="table__cell table__header" scope="col">Rok wydania</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th class="table__cell table__header" scope="row">Ed Sheeran</td>
+            <td class="table__cell">Bad Habits</td>
+            <td class="table__cell">2021</td>
+          </tr>
+          <tr>
+            <th class="table__cell table__header" scope="row">Figo & Samogony</td>
+            <td class="table__cell">Pif-Paf</td>
+            <td class="table__cell">2022</td>
+          </tr>
+          <tr>
+            <th class="table__cell table__header" scope="row">Mauro</td>
+            <td class="table__cell">Buona Sera Ciao Ciao</td>
+            <td class="table__cell">1987</td>
+          </tr>
+        </tbody>
+
+      </table>
+    </div>
+  </main>
+  <footer class="footer">
+    Dane kontaktowe
+    <ul>
+      <li class="footerLink">
+        <a class="footerLinkStyle" href="tel:+48.555555555">555 555 555</a>
+      </li>
+      <li class="footerLink">
+        <a class="footerLinkStyle" href="mailto:wildanimal@gmail.com">wildanimal@gmail.com</a>
+      </li>
+    </ul>
+
+  </footer>
+</body>
+
+</html>

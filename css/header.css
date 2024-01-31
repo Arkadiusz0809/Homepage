@@ -1,0 +1,11 @@
+.header{
+    color:white;
+    margin: 10px auto;
+    max-width: 1000px;
+    background-color: rgb(235, 238, 201);
+    text-shadow: 2px 2px 6px #000000;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+

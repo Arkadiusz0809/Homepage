@@ -1,0 +1,30 @@
+.container{
+    background-color: rgb(235, 238, 201);
+    color: #222;
+    max-width: 1000px ;
+    margin: 0 auto;
+    padding: 5px 20px 5px;
+    border-radius: 10px;
+}
+
+.container__image{
+    text-align: center;
+}
+
+.container__intro {
+    text-align: center;
+}
+
+.container__occupationName {
+    text-align: center;
+}
+
+.container__header {
+    text-align: center;
+
+}
+
+.container__header--reddened{
+    color:rgb(133, 39, 58);
+    text-align: center;
+}

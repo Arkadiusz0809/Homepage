@@ -1,0 +1,31 @@
+.article{
+    max-width: 1000px;
+    padding: 20px;
+    box-shadow: 2px 2px 8px  #ffffff;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.article--dark{
+    background-color: #222;
+}
+
+.article__paragraph{
+    color: hsl(180, 100%, 25%);
+}
+
+.article--dark .article__paragraph{
+    color: hsl(180, 100%, 35%);
+}
+
+.article__paragraph--highlighted:hover{
+    background-color: hsl(65, 52%, 96%);
+}
+
+.article__entry{
+    border-bottom: 1px solid black;
+}
+
+.article__paragraph--bolded{
+    font-weight: 800;
+}
