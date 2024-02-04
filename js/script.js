@@ -3,7 +3,7 @@
         console.log("witam wszytskich developerów");
     }
 
-    const toggleBackground = () => {
+    const toggleBackground = (button) => {
         const container = document.querySelector(".js-container");
         const themeName = document.querySelector(".js-themeName");
 
@@ -15,7 +15,9 @@
     const init = () => {
         const button = document.querySelector(".js-button");
 
-        button.addEventListener("click", toggleBackground);
+        button.addEventListener("click", () => {
+            toggleBackground(button);
+        });
 
         welcome();
     };
